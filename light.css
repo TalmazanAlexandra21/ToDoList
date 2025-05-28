@@ -1,0 +1,59 @@
+:root {
+    --back-image: linear-gradient(100deg, #d4f1ff, #ffffff);
+    --primary-color: #000000;
+    --header-back:linear-gradient(100deg, #b3cbd6, #aef3ff);
+    --header-text: #eee;
+  }
+  
+  body {
+    background-image: var(--back-image);
+    color: var(--primary-color);
+  }
+  
+  header {
+    background-image: var(--header-back);
+    color: var(--header-text);
+  }
+  
+  .box img {
+    border: 2px solid var(--primary-color);
+  }
+
+  form input {
+    background-color: #cdddec;
+    color: #1a150e;
+}
+
+form input::placeholder {
+    color: #1a150e;
+    opacity: 0.7;
+}
+
+form input:hover {
+    background-color: #d0d3d4;
+}
+
+.button{
+    background-color: white;
+    color: #1a150e;
+}
+
+.button:hover {
+    background-color: #f0f0f0;
+}
+
+.check-btn{
+  background-image:url('../images/checkbox.png');
+  border: 1px solid #00000000;
+  background-size:cover;
+}
+
+.delete-btn{
+  background-image:url('../images/trash.png');
+  border: 1px solid #00000000;
+  background-size:cover;
+}
+
+.todo {
+  background-color:#AEB1B4;
+}
