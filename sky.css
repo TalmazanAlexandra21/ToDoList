@@ -1,0 +1,52 @@
+:root {
+    --back-image: url("../images/127570-5-Centimeters-Per-Second-city-trees-anime-pink-sky.jpg");
+    --primary-color: #100f1d;
+    /* --primary-color: #eb9a4e; */
+    --header-back: linear-gradient(100deg, #575656, #062e3f);
+    --header-text: #eee;
+  }
+  
+  body {
+    background-image: url("../images/127570-5-Centimeters-Per-Second-city-trees-anime-pink-sky.jpg");
+    color: var(--primary-color);
+  }
+  
+  header {
+    background-image: var(--header-back);
+    color: var(--header-text);
+  }
+  
+  .box img {
+    border: 2px solid var(--primary-color);
+  }
+
+  form input{
+    background-color: #181a1a;
+    color: rgb(247, 226, 223);
+}
+
+.button {
+    background-color: rgb(247, 226, 223);
+    color: rgb(0, 0, 0);
+}
+
+.button:hover {
+    background-color: white;
+    box-shadow: #fff8 0 0 10px;
+}
+
+.check-btn{
+  background-image:url('../images/checkbox.png');
+  border: 1px solid #00000000;
+  background-size:cover;
+}
+
+.delete-btn{
+  background-image:url('../images/trash.png');
+  border: 1px solid #00000000;
+  background-size:cover;
+}
+
+.todo {
+  background-color: rgb(237, 202, 241);
+}
